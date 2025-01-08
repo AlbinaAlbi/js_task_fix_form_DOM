@@ -3,7 +3,7 @@
 const inputs = document.querySelectorAll('input');
 
 inputs.forEach((input) => {
-  if (input.id) {
+  if (input.id && input.name) {
     const label = document.createElement('label');
 
     label.classList.add('field-label');
